@@ -8,7 +8,7 @@
         {{^data.coverHref}}
         <div class="no-cover" style="background-image: url('{{data.noCoverBackground}}')"><p>{{data.title}}</p></div>
         {{/data.coverHref}}
-        <div class="buttons">
+        <div id='details-button-div' class="buttons" hidden aria-hidden='true'>
             <button tabindex="1000" class="btn btn-default read" data-dismiss="modal" data-book="{{data.rootUrl}}" type="button">{{strings.i18n_read}}</button>
             <button tabindex="1000" class="btn btn-danger delete" data-dismiss="modal" type="button">{{strings.i18n_delete}}</button>
         </div>
