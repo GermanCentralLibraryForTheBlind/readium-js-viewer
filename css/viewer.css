@@ -467,13 +467,13 @@ body.keyboard input[type="radio"]:focus + label,
 body.keyboard input[type="range"]:focus
 {
     box-shadow: 0px 0px 5px #555555 !important;
-    border: #555555 double 3px !important;
+    outline: #555555 double 3px !important;
 }
 
 body.keyboard button.details:focus
 {
     box-shadow: 0px 0px 5px #555555 !important;
-    border: #555555 double 3px !important;
+    outline: #555555 double 3px !important;
 }
 
 
@@ -482,7 +482,7 @@ body.keyboard input[type="text"]:focus
 {
     background: #fff;
     box-shadow: 0px 0px 5px #555555 !important;
-    border: #555555 double 2px !important;
+    outline: #555555 double 2px !important;
 }
 
 body.keyboard #app-navbar button:focus,
@@ -490,13 +490,13 @@ body.keyboard #app-navbar input[type="radio"]:focus + label,
 body.keyboard #app-navbar input[type="range"]:focus
 {
     box-shadow: 0px 0px 5px #cccccc !important;
-    border: #cccccc double 3px !important;
+    outline: #cccccc double 3px !important;
 }
 body.keyboard #app-navbar input[type="text"]:focus
 {
     background: #fff;
     box-shadow: 0px 0px 5px #cccccc !important;
-    border: #cccccc double 3px !important;
+    outline: #cccccc double 3px !important;
 }
 
 input[type="range"]

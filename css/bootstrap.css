@@ -294,9 +294,13 @@ a {
     text-decoration: none
 }
 
-a:hover, a:focus {
+a:hover {
+
+
+}
+
+a:focus {
     color: #555555;
-    box-shadow: 0px 0px 5px #555555 !important;
     border: #555555 double 3px !important;
 }
 
@@ -5420,14 +5424,22 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
     filter: alpha(opacity=20)
 }
 
-.close:hover, .close:focus {
-    box-shadow: 0px 0px 5px #555555 !important;
-    border: #555555 double 3px !important;
-    color: #555;
+.close:hover {
+
+    color: #000;
     text-decoration: none;
     cursor: pointer;
-    opacity: 1;
-    filter: alpha(opacity=100)
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.close:focus
+{
+    opacity: .6;
+    filter: alpha(opacity=60)
+
+    box-shadow: 0px 0px 5px #000000 !important;
+    outline: #000000 double 3px !important;
 }
 
 button.close {
