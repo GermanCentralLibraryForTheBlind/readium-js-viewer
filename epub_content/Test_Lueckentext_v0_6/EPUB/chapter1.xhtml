@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <title>Test Lückentext</title>
+    </head>
+    
+    <body>
+        <h2>Lückentext (Hufnagl, Spengler, Steudle: "Sprachpraxis", S. 109) </h2>
+        <div>
+            <p>Sehr geehrte Frau Schwarz,<br /> endlich können wir <input id="blank1" type="text"
+                size="1" maxlength="1" />hnen (iI) mitteilen, dass <input id="blank2" type="text"
+                    size="1" maxlength="1" />ie (sS)<input id="blank3" type="text" size="1"
+                        maxlength="1" />hre (iI) verlorene Tasche abholen können. Zwei Rentner haben <input
+                            id="blank4" type="text" size="1" maxlength="1" />ie (sS) bei <input id="blank5"
+                                type="text" size="1" maxlength="1" />hrem Morgenspaziergang gefunden. Wir haben
+                uns in <input id="blank6" type="text" size="1" maxlength="1" />hrem Namen bedankt
+                und <input id="blank7" type="text" size="1" maxlength="1" />hnen einen kleine
+                Belohnung gegeben. Wenn <input id="blank8" type="text" size="1" maxlength="1" />ie
+                <input id="blank9" type="text" size="1" maxlength="1" />ns wieder besuchen,
+                sollten <input id="blank10" type="text" size="1" maxlength="1" />ie <input
+                    id="blank11" type="text" size="1" maxlength="1" />hre Kinder mitbringen, denn
+                auch <input id="blank12" type="text" size="1" maxlength="1" />ie sind jederzeit
+                willkommen. </p>
+            <div>
+                <input type="submit" value="Auswertung" id="submitbut" />
+            </div>
+            <div id="score-right"> Richtig: </div>
+            <div id="score-wrong"> Falsch: </div>
+        </div>
+        <script>
+               
+        function resetScore(){
+    
+            var title = [];
+            var blank;
+            
+            document.getElementById("score-right").innerHTML = "Richtig:";
+            document.getElementById("score-wrong").innerHTML = "Falsch:";
+            
+            title[1] = "'Ihnen' mit kleinem oder großem i?";
+            title[2] = "'Sie' mit kleinem oder großem s?";
+            title[3] = "'Ihre' mit kleinem oder großem i?";
+            title[4] = "'Sie' mit kleinem oder großem s?";
+            title[5] = "'Ihrem' mit kleinem oder großem i?";
+            title[6] = "'Ihrem' mit kleinem oder großem i?";
+            title[7] = "'Ihnen' mit kleinem oder großem i?";
+            title[8] = "'Sie' mit kleinem oder großem s?";
+            title[9] = "'Uns' mit kleinem oder großem u?";
+            title[10] = "'Sie' mit kleinem oder großem s?";
+            title[11] = "'Ihre' mit kleinem oder großem i?";
+            title[12] = "'Sie' mit kleinem oder großem s?";
+            
+            for (i = 1; i != 13; i++){
+                 blank = document.getElementById("blank" + i);
+                 if (blank.title == "falsch" || blank.value == ""){
+                     blank.title = title[i];
+                 
+                 }
+            }
+        
+    }
+    
+    resetScore(); //to set the title attributes for the blanks
+    
+    
+       
+    
+
+    document.getElementById('blank1').onkeydown = function () {document.getElementById('blank1').style.color = '#000'; resetScore();}
+    document.getElementById('blank2').onkeydown = function () {document.getElementById('blank2').style.color = '#000'; resetScore();}
+    document.getElementById('blank3').onkeydown = function () {document.getElementById('blank3').style.color = '#000'; resetScore();}
+    document.getElementById('blank4').onkeydown = function () {document.getElementById('blank4').style.color = '#000'; resetScore();}
+    document.getElementById('blank5').onkeydown = function () {document.getElementById('blank5').style.color = '#000'; resetScore();}
+    document.getElementById('blank6').onkeydown = function () {document.getElementById('blank6').style.color = '#000'; resetScore();}
+    document.getElementById('blank7').onkeydown = function () {document.getElementById('blank7').style.color = '#000'; resetScore();}
+    document.getElementById('blank8').onkeydown = function () {document.getElementById('blank8').style.color = '#000'; resetScore();}
+    document.getElementById('blank9').onkeydown = function () {document.getElementById('blank9').style.color = '#000'; resetScore();}
+    document.getElementById('blank10').onkeydown = function () {document.getElementById('blank10').style.color = '#000'; resetScore();}
+    document.getElementById('blank11').onkeydown = function () {document.getElementById('blank11').style.color = '#000'; resetScore();}
+    document.getElementById('blank12').onkeydown = function () {document.getElementById('blank12').style.color = '#000'; resetScore();}
+
+
+
+
+    document.getElementById('submitbut').onclick = function () {
+        assessment();
+    };
+
+    function assessment() {
+
+        var right = 0;
+        var wrong = 0;
+        var solution = [];
+        
+        solution [1] = "I";
+        solution [2] = "S";
+        solution [3] = "I";
+        solution [4] = "s";
+        solution [5] = "i";
+        solution [6] = "I";
+        solution [7] = "i";
+        solution [8] = "S";
+        solution [9] = "u";
+        solution [10] = "S";
+        solution [11] = "I";
+        solution [12] = "s";
+        
+       for (i=1; i != 13; i++) {
+       
+            var blank = document.getElementById("blank" + i);
+            if (blank.value !=""){
+                if (blank.value == solution[i]) {
+                    right += 1;
+                    blank.style.color = '#0A0';
+                    blank.title = 'richtig';
+                } else {
+                    wrong += 1;
+                    blank.title = 'falsch';
+                 blank.style.color = '#A00';
+                }
+            }
+        }
+
+        document.getElementById("score-right").innerHTML = "Richtig:" + right;
+        document.getElementById("score-wrong").innerHTML = "Falsch:" + wrong;
+        
+ }
+
+
+</script>
+    </body>
+    
+    
+    
+    
+    
+</html>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+    <dc:rights>Public domain in the USA.</dc:rights>
+    <dc:identifier id="id" opf:scheme="URI">http://www.gutenberg.org/ebooks/34568</dc:identifier>
+    <dc:creator opf:file-as="Tapper, Thomas">Thomas Tapper</dc:creator>
+    <dc:title>Johann Sebastian Bach / The story of the boy who sang in the streets</dc:title>
+    <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
+    <dc:date opf:event="publication">2010-12-04</dc:date>
+    <dc:date opf:event="conversion">2010-12-06T08:50:50.361693+00:00</dc:date>
+    <dc:source>http://www.gutenberg.org/files/34568/34568-h/34568-h.htm</dc:source>
+    <meta content="item1" name="cover"/>
+  </metadata>
+  <manifest>
+    <!--Image: 400 x 578 size=58845 q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@cover.jpg" id="item1" media-type="image/jpeg"/>
+    <!--Image: 409 x 561 size=44038 q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus01.jpg" id="item2" media-type="image/jpeg"/>
+    <!--Image: 461 x 400 size=62565 q=85-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus02.jpg" id="item3" media-type="image/jpeg"/>
+    <!--Image: 400 x 645 size=58991 q=40-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus03.jpg" id="item4" media-type="image/jpeg"/>
+    <!--Image: 584 x 282 size=56231 (was 700 x 339 scale=0.83) q=90-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus04.jpg" id="item5" media-type="image/jpeg"/>
+    <!--Image: 584 x 374 size=62976 (was 624 x 400 scale=0.94) q=80-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus05.jpg" id="item6" media-type="image/jpeg"/>
+    <!--Image: 400 x 452 size=58596 q=80-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus06.jpg" id="item7" media-type="image/jpeg"/>
+    <!--Image: 584 x 358 size=61346 (was 651 x 400 scale=0.90) q=80-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus07.jpg" id="item8" media-type="image/jpeg"/>
+    <!--Image: 584 x 368 size=63702 (was 634 x 400 scale=0.92) q=80-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus08.jpg" id="item9" media-type="image/jpeg"/>
+    <!--Image: 400 x 481 size=62305 q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus09.jpg" id="item10" media-type="image/jpeg"/>
+    <!--Image: 400 x 507 size=64065 q=60-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus10.jpg" id="item11" media-type="image/jpeg"/>
+    <!--Image: 432 x 400 size=58629 q=80-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus11.jpg" id="item12" media-type="image/jpeg"/>
+    <!--Image: 570 x 400 size=64258 q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus12.jpg" id="item13" media-type="image/jpeg"/>
+    <!--Image: 584 x 306 size=58192 (was 700 x 367 scale=0.83) q=85-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus13.jpg" id="item14" media-type="image/jpeg"/>
+    <!--Image: 584 x 365 size=57304 (was 640 x 400 scale=0.91) q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus14.jpg" id="item15" media-type="image/jpeg"/>
+    <!--Image: 400 x 489 size=61411 q=50-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus15.jpg" id="item16" media-type="image/jpeg"/>
+    <!--Image: 400 x 484 size=60694 q=50-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus16.jpg" id="item17" media-type="image/jpeg"/>
+    <!--Image: 584 x 112 size=14677 (was 700 x 135 scale=0.83) q=90-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus17.jpg" id="item18" media-type="image/jpeg"/>
+    <!--Image: 349 x 528 size=58289 q=70-->
+    <item href="www.gutenberg.org@files@34568@34568-h@images@illus18.jpg" id="item19" media-type="image/jpeg"/>
+    <item href="pgepub.css" id="item20" media-type="text/css"/>
+    <item href="0.css" id="item21" media-type="text/css"/>
+    <!--Chunk: size=39272-->
+    <item href="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html" id="item22" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="item22" linear="yes"/>
+  </spine>
+</package>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ncx PUBLIC '-//NISO//DTD ncx 2005-1//EN' 
+              'http://www.daisy.org/z3986/2005/ncx-2005-1.dtd'>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="http://www.gutenberg.org/ebooks/34568" name="dtb:uid"/>
+    <meta content="-1" name="dtb:depth"/>
+    <meta content="Project Gutenberg EPUB-Maker v0.03 by Marcello Perathoner &lt;webmaster@gutenberg.org&gt;" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Johann Sebastian Bach
+The story of the boy who sang in the streets</text>
+  </docTitle>
+  <navMap/>
+  <pageList id="pages" class="pagelist">
+    <navLabel>
+      <text>Pages</text>
+    </navLabel>
+    <pageTarget type="normal" id="pt-1" value="1" playOrder="1">
+      <navLabel>
+        <text>[Pg 3]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00000"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-2" value="2" playOrder="2">
+      <navLabel>
+        <text>[Pg 4]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00001"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-3" value="3" playOrder="3">
+      <navLabel>
+        <text>[Pg 5]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00002"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-4" value="4" playOrder="4">
+      <navLabel>
+        <text>[Pg 6]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00003"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-5" value="5" playOrder="5">
+      <navLabel>
+        <text>[Pg 7]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00004"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-6" value="6" playOrder="6">
+      <navLabel>
+        <text>[Pg 8]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00005"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-7" value="7" playOrder="7">
+      <navLabel>
+        <text>[Pg 9]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00006"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-8" value="8" playOrder="8">
+      <navLabel>
+        <text>[Pg 10]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00007"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-9" value="9" playOrder="9">
+      <navLabel>
+        <text>[Pg 11]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00008"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-10" value="10" playOrder="10">
+      <navLabel>
+        <text>[Pg 12]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00009"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-11" value="11" playOrder="11">
+      <navLabel>
+        <text>[Pg 13]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00010"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-12" value="12" playOrder="12">
+      <navLabel>
+        <text>[Pg 14]</text>
+      </navLabel>
+      <content src="www.gutenberg.org@files@34568@34568-h@34568-h-0.htm.html#pgepubid00011"/>
+    </pageTarget>
+  </pageList>
+</ncx>

@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.-epub-media-overlay-active{
+    color:orange;
+}
+
+body{
+    display:block;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:14pt;
+    line-height:1.33em;
+    font-weight:normal;
+    width:800px;
+    height:800px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.body{
+    width:700px;
+    padding:50px 20px 60px 30px;
+}
+
+p{
+    line-height:1.5;
+}
+
+h1{
+    margin:5px 0 20px 0;
+    font-size:28pt;
+    line-height:1.1em;
+    font-weight:bold;
+    color:#CC0099;
+
+}
+
+h2{
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size:18pt;
+    color:#CC0099;
+}
+
+
+
+div.marginalie{
+    position:relative;
+    float:right;
+    width:40%;
+    font-size:12pt;
+    line-height:1.3em;
+    margin-bottom:12px;
+    margin-left:12px;
+    margin-right:12px;
+    clear:right;
+
+}
+
+div.author{
+    font-weight:bold;
+}
+
+
+.autor_inhalt{
+    color:#CC0099
+
+}
+
+address{
+    font-style:normal;
+    margin-top:3.5px;
+    color:#808080;
+    line-height:12.5pt;
+    margin-bottom:15px;
+}
+
+div.footnote{
+    font-size:11pt;
+    line-height:1.18em;
+    margin-bottom:1.35em;
+
+}
+
+
+sup.footnote{
+    font-size:9pt;
+}
+
+
+
+.toc{
+    margin:0 0 20px 0;
+}
+
+.footnote_block
+{
+    margin: 20px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

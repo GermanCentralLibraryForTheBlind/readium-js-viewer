@@ -1,0 +1,14 @@
+body {
+    display:block;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#submit-button {
+    border-width: medium;
+}
+
+input[type="text"]{
+    width:3em
+}
+

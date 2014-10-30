@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">   
+    <body>
+        <par>
+            <text src="chapter1_01.xhtml#Petra_mp3"/>
+            <audio src="audio/01_Petra.mp3" clipBegin="0.00000000s" clipEnd="2.000000000s"/>
+        </par>
+        <par>
+            <text src="chapter1_01.xhtml#In_der_mp3"/>
+            <audio src="audio/02_In_der.mp3" clipBegin="0.00000000s" clipEnd="8.000000000s"/>
+        </par>
+        <par>
+            <text src="chapter1_01.xhtml#Petra_2_mp3"/>
+            <audio src="audio/03_Petra.mp3" clipBegin="0.00000000s" clipEnd="2.000000000s"/>
+        </par> 
+        <par>
+            <text src="chapter1_01.xhtml#Studium_mp3"/>
+            <audio src="audio/04_Studium.mp3" clipBegin="0.00000000s" clipEnd="12.000000000s"/>
+        </par>
+        <par>
+            <text src="chapter1_01.xhtml#www_mp3"/>
+            <audio src="audio/05_www.mp3" clipBegin="0.00000000s" clipEnd="4.000000000s"/>
+        </par>
+        <par>
+            <text src="chapter1_01.xhtml#wenn_mp3"/>
+            <audio src="audio/06_wenn.mp3" clipBegin="0.00000000s" clipEnd="60.000000000s"/>
+        </par> 
+    </body>
+</smil>

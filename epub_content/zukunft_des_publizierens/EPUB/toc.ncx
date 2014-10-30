@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/"
+	version="2005-1" xml:lang="en">
+	<head>
+		<meta name="dtb:uid" content="http://my-URI-stub/"/>
+		<meta name="dtb:depth" content="1"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="100"/>
+	</head>
+	<docTitle>
+		<text/>
+	</docTitle>
+	<docAuthor>
+		<text>Bundeszentrale für politische Bildung</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="cover" playOrder="1">
+			<!-- cover -->
+			<navLabel>
+				<text>Zukunft des Publizierens</text>
+			</navLabel>
+			<content src="cover.xhtml"/>
+		</navPoint>
+		<navPoint id="00_editorial_01" playOrder="2">
+			<!-- Editorial -->
+			<navLabel>
+				<text>Editorial</text>
+			</navLabel>
+			<content src="00_editorial_01.xhtml"/>
+		</navPoint>
+		<navPoint id="01_inhaltsverzeichnis" playOrder="3">
+			<!-- Inhaltsverzeichnis 000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+			<navLabel>
+				<text>Inhaltsverzeichnis</text>
+			</navLabel>
+			<content src="01_inhaltsverzeichnis.xhtml"/>
+		</navPoint>
+		<navPoint id="chapter1" playOrder="4">
+			<!-- chapter 1 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+			<navLabel>
+				<text>In der dunklen Höhle. Zur Zukunft des Buches</text>
+			</navLabel>
+			<content src="chapter1_01.xhtml"/>
+			<navPoint id="chapter1.1" playOrder="5">
+				<navLabel>
+					<text>Der große Umbruch</text>
+				</navLabel>
+				<content src="chapter1_02.xhtml#ID91625"/>
+			</navPoint>
+			<navPoint id="chapter1.2" playOrder="6">
+				<navLabel>
+					<text>Das E-Book setzt sich durch</text>
+				</navLabel>
+				<content src="chapter1_04.xhtml#ID80673"/>
+			</navPoint>
+			
+		</navPoint>
+
+	</navMap>
+</ncx>

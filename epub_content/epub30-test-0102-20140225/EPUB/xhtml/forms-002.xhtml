@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="en">
+    <head>        
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    </head>
+    <body>
+        <section id="forms-inputs">
+        	<h3>Input Types</h3>
+        	<section id="input-010" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-010</span> <code>text</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>text</code> is supported.</p>
+        		
+        		<input type="text"/>
+        		
+        		<p class="eval">If a text input field is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-020" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-020</span> <code>search</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>search</code> is supported.</p>
+        		
+        		<input type="search"/>
+        		
+        		<p class="eval">If a text input field is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-030" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-030</span> <code>password</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>password</code> is supported.</p>
+        		
+        		<input type="password"/>
+        		
+        		<p class="eval">If text entered in the preceding box is not displayed visually, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-040" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-040</span> <code>tel</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>tel</code> is supported.</p>
+        		
+        		<p>To verify, test a telephone number that matches the pattern 123-456-7890 and one that does not.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="tel" pattern="\d{3}-\d{3}-\d{4}"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only when a non-matching pattern is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-050" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-050</span> <code>url</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>url</code> is supported.</p>
+        		
+        		<p>To verify, test a valid and invalid URL.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="url"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only on when an invalid URL is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-060" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-060</span> <code>email</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>email</code> is supported.</p>
+        		
+        		<p>To verify, test a valid and invalid email.</p>
+        		
+        		<form onsubmit="return false">
+        			<input type="email"/>
+        			<input type="submit" value="Test"/>
+        		</form>
+        		
+        		<p class="eval">If the reading system reports an error only when an invalid email address is entered, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-070" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-070</span> <code>date</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>date</code> is supported.</p>
+        		
+        		<input type="date"/>
+        		
+        		<p class="eval">If the preceding input field allows dates to be selected and input, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-080" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-080</span> <code>number</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>number</code> is supported.</p>
+        		
+        		<input type="number"/>
+        		
+        		<p class="eval">If the preceding input field allows positive and negative numbers to be selected and input, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-090" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-090</span> <code>range</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>range</code> is supported.</p>
+        		
+        		<input type="range" min="0" max="100"/>
+        		
+        		<p class="eval">If a slider control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-100" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-100</span> <code>checkbox</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>checkbox</code> is supported.</p>
+        		
+        		<label><input type="checkbox"/> Test</label>
+        		
+        		<p class="eval">If a checkbox control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-110" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-110</span> <code>radio</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>radio</code> is supported.</p>
+        		
+        		<label><input type="radio"/> Test</label>
+        		
+        		<p class="eval">If a radio button control is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-120" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-120</span> <code>file</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>file</code> is supported.</p>
+        		
+        		<input type="file"/>
+        		
+        		<p class="eval">If a file selection control is not rendered before this paragraph, and files can be selected from 
+        			the local file system, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-130" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-130</span> <code>submit</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>submit</code> is supported.</p>
+        		
+        		<input type="submit"/>
+        		
+        		<p class="eval">If a submit input button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-140" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-140</span> <code>image</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>image</code> is supported.</p>
+        		
+        		<input type="image" src="../img/button.png" alt="test"/>
+        		
+        		<p class="eval">If a round play button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-150" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-150</span> <code>reset</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>reset</code> is supported.</p>
+        		
+        		<input type="reset"/>
+        		
+        		<p class="eval">If a reset button is rendered before this paragraph, the test passes.</p>
+        	</section>
+        	
+        	<section id="input-160" class="otest">
+        		<h4><span class="nature">[OPTIONAL]</span> <span class="test-id">input-160</span> <code>button</code></h4>
+        		
+        		<p class="desc">Tests whether the HTML5 <code>input</code> element state <code>button</code> is supported.</p>
+        		
+        		<input type="button" value="Test"/>
+        		
+        		<p class="eval">If a button with the label "Test" is rendered before this paragraph, the test passes.</p>
+        	</section>
+        </section>
+    </body>
+</html>

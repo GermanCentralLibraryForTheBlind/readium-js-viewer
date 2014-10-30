@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/"
+    version="3.0" xml:lang="en" unique-identifier="bookid">
+    <metadata>
+        <dc:title>Zukunft des Publizierens (Fixed Layout)</dc:title>
+        <dc:creator>Bundeszentrale für politische Bildung</dc:creator>
+        <dc:language id="pub-language">deutsch</dc:language>
+        <dc:identifier id="bookid">http://my-URI-stub/</dc:identifier>
+        <meta property="dcterms:modified">2012-02-20T22:17:24Z</meta>
+        <meta property="media:duration" refines="#chapter1_smil">0:00:08</meta>
+        <meta property="media:duration">0:00:08</meta>
+        <meta property="media:active-class">-epub-media-overlay-active</meta>
+        <meta name="cover" content="APuZ_2012Titelseite.png"/>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml"/>
+        <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+        <item id="editorial_01" href="00_editorial_01.xhtml" media-type="application/xhtml+xml"/>
+        <item id="editorial_02" href="00_editorial_02.xhtml" media-type="application/xhtml+xml"/>
+        <item id="inhaltsverzeichnis" href="01_inhaltsverzeichnis.xhtml"
+            media-type="application/xhtml+xml"/>
+        <item id="chapter1_01" href="chapter1_01.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_02" href="chapter1_02.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_03" href="chapter1_03.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_04" href="chapter1_04.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_05" href="chapter1_05.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_06" href="chapter1_06.xhtml" media-type="application/xhtml+xml"
+            media-overlay="chapter1_smil"/>
+        <item id="chapter1_smil" href="chapter1.smil" media-type="application/smil+xml"/>
+        <item id="Petra_mp3" href="audio/01_Petra.mp3" media-type="audio/mpeg"/>
+        <item id="In_der_mp3" href="audio/02_In_der.mp3" media-type="audio/mpeg"/>
+        <item id="Petra_2_mp3" href="audio/03_Petra.mp3" media-type="audio/mpeg"/>
+        <item id="Studium_mp3" href="audio/04_Studium.mp3" media-type="audio/mpeg"/>
+        <item id="www_mp3" href="audio/05_www.mp3" media-type="audio/mpeg"/>
+        <item id="wenn_mp3" href="audio/06_wenn.mp3" media-type="audio/mpeg"/>
+        <item id="style" href="stylesheet.css" media-type="text/css"/>
+        <item id="img1" href="images/APuZ_2012Titelseite.jpg" media-type="image/jpeg"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover"/>
+        <itemref idref="editorial_01"/>
+        <itemref idref="editorial_02"/>
+        <itemref idref="inhaltsverzeichnis"/>
+        <itemref idref="chapter1_01"/>
+        <itemref idref="chapter1_02"/>
+        <itemref idref="chapter1_03"/>
+        <itemref idref="chapter1_04"/>
+        <itemref idref="chapter1_05"/>
+        <itemref idref="chapter1_06"/>
+    </spine>
+</package>

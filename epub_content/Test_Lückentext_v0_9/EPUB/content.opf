@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en" unique-identifier="bookid">
+  <metadata>
+    <dc:title>Lückentext Sprachpraxis</dc:title>
+    <dc:creator xmlns:ns0="http://www.idpf.org/2007/opf" ns0:role="aut" ns0:file-as="Unbekannt">Hufnagl, Spengler, Steudle</dc:creator>
+    <dc:identifier id="bookid">http://my-URI-stub/</dc:identifier>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:language>en</dc:language>
+    <dc:identifier xmlns:ns1="http://www.idpf.org/2007/opf" ns1:scheme="calibre">1a878e1b-ded7-43d1-a3c9-712b43210a93</dc:identifier>
+    <meta property="dcterms:modified">2012-02-20T22:17:24Z</meta>
+    <meta name="calibre:title_sort" content="Book title"/>
+    <meta name="calibre:user_categories" content="{}"/>
+    <meta name="calibre:author_link_map" content="{&quot;Unbekannt&quot;: &quot;&quot;}"/>
+  </metadata>
+  <manifest>
+    <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml"/>
+    <item id="style" href="stylesheet.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="chapter1"/>
+  </spine>
+</package>
