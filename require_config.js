@@ -51,14 +51,15 @@ require.config({
         'templates': '../templates',
         'storage/StorageManager' : 'storage/StaticStorageManager',
         'versioning/Versioning' : 'versioning/UnpackagedVersioning',
-        'encryptionHandler': '../readium-js/epub-modules/epub-fetch/src/models/encryption_handler'
+        'encryptionHandler': '../readium-js/epub-modules/epub-fetch/src/models/encryption_handler',
     },
     hgn : {
         templateExtension : ""
     },
     config : {
         'storage/EpubUnzipper' : {'workerScriptsPath' : '/lib/thirdparty/'},
-        'workers/WorkerProxy' : {'workerUrl' : '/scripts/readium-worker.js'}
+        'workers/WorkerProxy' : {'workerUrl' : '/scripts/readium-worker.js'},
+        'epub-modules/web-workers/PaginationWorker' : { 'pWorker' : '../readium-js/out/pagination-worker.js' }
     },
     shim: {
         screenfull : {

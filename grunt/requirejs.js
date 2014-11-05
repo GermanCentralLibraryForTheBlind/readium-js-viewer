@@ -66,6 +66,15 @@ module.exports = function(grunt) {
                     'viewer-version' : '../build/version.json'
                 }
             }
-        }
+        },
+        paginationWorker: {
+            options: {
+                mainConfigFile: 'readium-js/rjs_require_config.js',
+                include: ['epub-modules/web-workers/Pagination-Worker'],
+                baseUrl: './readium-js/',
+                optimize: 'none',
+                out: 'readium-js/out/pagination-worker.js',
+            }
+        },
     };
 };
