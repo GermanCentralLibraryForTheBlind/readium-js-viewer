@@ -1,4 +1,4 @@
-/*
+
 @font-face {
 font-family: 'Stix';
 font-weight: normal;
@@ -25,21 +25,19 @@ font-family:'Stix';
 font-weight: bold;
 font-style: italic;
 src:url(../fonts/STIXGeneralBolIta.otf);
-}*/
+}
 
 
 body {
 font-size: 1em;
 line-height: 1.33em;
-/* font-family: 'Stix', serif; */
-font-family: serif;
+font-family: 'Stix', serif;
 font-variant-numeric: oldstyle-nums;
 
 background-color: silver;
 }
 
 p {
-    font-family: serif;
 padding: 0;
 margin: 0;
 text-align: justify;
@@ -364,21 +362,15 @@ font-style: italic;
     background-color: #abc;
 }
 
+
 @media all and (orientation:portrait) {
-p {
-    font-family: sans-serif;
-    
-    color: magenta !important;
+p { font-family: serif; }
 }
-}
+
 
 @media all and (orientation:landscape) {
-p { font-family: serif; color: red !important;}
+p { font-family: sans-serif; }
+
 }
 
-body:last-child:after
-{
-    content: "END";
-    color: blue;
-    font-weight: bold;
-}
+

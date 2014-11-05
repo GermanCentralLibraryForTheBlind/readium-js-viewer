@@ -18,7 +18,7 @@
     };    
     
     document.getElementById('reset-button').onclick = function () {
-        resetScore(true);
+        resetScore(true); return false
     };
     
     function resetScore(resetAll){
@@ -61,16 +61,15 @@
                  if (blank.title != "richtig"){
                      blank.title = title[i];
                  }
-                 if (resetAll){
+                 if (resetAll){                       
                      blank.style.color = '#000';
-                     blank.value = "";
                      blank.value = value[i];
                      blank.title = title[i];
                  }
             }
-        
+                 
     }
-
+    
     function assessment() {
 
         var right = 0;
@@ -103,7 +102,7 @@
                 } else {
                     wrong += 1;
                     blank.title = 'falsch';
-                 blank.style.color = '#A00';
+                    blank.style.color = '#A00';
                 }
             }
         }
