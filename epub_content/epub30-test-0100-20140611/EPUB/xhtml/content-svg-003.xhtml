@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+	<head>        
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/svg.css" />
+	</head>
+	<body>
+		<section id="svg-xhtml-support">
+			<h3>XHTML Support</h3>
+			
+			<section id="svg-410" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-410</span> <code>img</code></h4>
+				<p class="desc">Tests whether SVG is supported in <code>img</code> elements.</p>
+				<img src="../svg/circle.svg" alt="a grey circle" />
+				<p class="eval">If a grey circle is rendered before this paragraph, the test passes.</p>
+			</section>
+			
+			<section id="svg-420" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-420</span> <code>object</code></h4>
+				<p class="desc">Tests whether SVG is supported in <code>object</code> elements.</p>
+				<object type="image/svg+xml" data="../svg/circle.svg">
+					<p>FAIL</p>
+				</object>
+				<p class="eval">If a circle is rendered before this paragraph, the test passes.</p>
+			</section>
+			
+			<section id="svg-430" class="ctest">
+				<h4><span class="nature">[REQUIRED]</span> <span class="test-id">svg-430</span> <code>background-image</code> (CSS)</h4>
+				<p class="desc">Tests whether SVG is supported when set using the CSS <code>background-image</code> property. </p>
+				<p class="eval">If a grey circle is rendered at the right bottom of this section, the test passes.</p>
+			</section>
+		</section>
+	</body>
+</html>

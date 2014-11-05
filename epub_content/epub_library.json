@@ -42,13 +42,6 @@
         "rootUrl" : "epub_content/igp-year5-school-maths"
     },
     {
-        "title" : "epub30-test-0120-20140225",
-        "author" : "",
-        "coverHref" : "",
-        "packagePath" : "EPUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0120-20140225"
-    },
-    {
         "title" : "Accessible EPUB 3",
         "author" : "Matt Garrish",
         "coverHref" : "epub_content/accessible_epub_3/EPUB/covers/9781449328030_lrg.jpg",
@@ -94,124 +87,124 @@
         "rootUrl" : "epub_content/epubReadingSystem"
     },
     {
-        "title" : "epub30-test-0100-20140225",
+        "title" : "epub30-test-0100-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/EPUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0100-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0100-20140611"
     },
     {
-        "title" : "epub30-test-0101-20140225",
+        "title" : "epub30-test-0101-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0101-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0101-20140611"
     },
     {
-        "title" : "epub30-test-0102-20140225",
+        "title" : "epub30-test-0102-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0102-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0102-20140611"
     },
     {
-        "title" : "epub30-test-0103-20140225",
+        "title" : "epub30-test-0103-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0103-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0103-20140611"
     },
     {
-        "title" : "epub30-test-0120-20140225",
+        "title" : "epub30-test-0120-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0120-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0120-20140611"
     },
     {
-        "title" : "epub30-test-0130-20140225",
+        "title" : "epub30-test-0130-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0130-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0130-20140611"
     },
     {
-        "title" : "epub30-test-0140-20140225",
+        "title" : "epub30-test-0140-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0140-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0140-20140611"
     },
     {
-        "title" : "epub30-test-0150-20140225",
+        "title" : "epub30-test-0150-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0150-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0150-20140611"
     },
     {
-        "title" : "epub30-test-0201-20140225",
+        "title" : "epub30-test-0201-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0201-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0201-20140611"
     },
     {
-        "title" : "epub30-test-0202-20140225",
+        "title" : "epub30-test-0202-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0202-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0202-20140611"
     },
     {
-        "title" : "epub30-test-0203-20140225",
+        "title" : "epub30-test-0203-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0203-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0203-20140611"
     },
     {
-        "title" : "epub30-test-0204-20140225",
+        "title" : "epub30-test-0204-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0204-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0204-20140611"
     },
     {
-        "title" : "epub30-test-0205-20140225",
+        "title" : "epub30-test-0205-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0205-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0205-20140611"
     },
     {
-        "title" : "epub30-test-0206-20140225",
+        "title" : "epub30-test-0206-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0206-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0206-20140611"
     },
     {
-        "title" : "epub30-test-0207-20140225",
+        "title" : "epub30-test-0207-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0207-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0207-20140611"
     },
     {
-        "title" : "epub30-test-0208-20140225",
+        "title" : "epub30-test-0208-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0208-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0208-20140611"
     },
     {
-        "title" : "epub30-test-0209-20140225",
+        "title" : "epub30-test-0209-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0209-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0209-20140611"
     },
     {
-        "title" : "epub30-test-0210-20140225",
+        "title" : "epub30-test-0210-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0210-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0210-20140611"
     },
     {
-        "title" : "epub30-test-0211-20140225",
+        "title" : "epub30-test-0211-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0211-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0211-20140611"
     },
     {
-        "title" : "epub30-test-0220-20140225",
+        "title" : "epub30-test-0220-20140611",
         "author" : "Markus Gylling","author" : "Vincent Gros",
-        "packagePath" : "EpubTestsuite-20140225/PUB/package.opf",
-        "rootUrl" : "epub_content/epub30-test-0220-20140225"
+        "packagePath" : "EPUB/package.opf",
+        "rootUrl" : "epub_content/epub30-test-0220-20140611"
     }
    
 ]
