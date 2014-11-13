@@ -181,6 +181,5 @@
     <itemref idref="html3"/>
     <itemref idref="html12"/>
     <itemref idref="html13"/>
-    <itemref idref="html57"/>
   </spine>
 </package>
