@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Sample 2: Map of North America</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      @page {
+          margin-bottom:5.000000pt;
+          margin-top:5.000000pt;
+      }</style>
+  </head>
+  <body>
+    <section>
+<h1>Sample 2: Map of North America</h1>
+<p>
+<img src="images/map-small.jpg" alt="map of North America" /><br />
+<a href="pix/map-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+This map of North America in the 1770s is taken from a postsecondary history textbook. The full page 
+where it appears can be seen below.
+</p>
+<p>
+<img src="images/map-context-small.jpg" alt="full page for the map of North America" /><br />
+<a href="pix/map-context-lg.html">View a larger version of this image.</a>
+</p>
+<section>
+<h2>Making This Image Accessible</h2>
+<p>
+This image can be made accessible by using different levels of descriptive text. The first, a short description, is useful for describing the first level of instructional meaning, which in this case is the location of the border of the Spanish Empire. The second, a longer description that includes tabular data, is used to convey all of the information available in the map.
+</p>
+<p>
+When and why are short descriptions and long descriptions used? A long description may be required given the nature and complexity of the image and the information it conveys. Even when a long description is used, a short description may still be necessary. A caption or a short description should provide enough information for the reader to decide whether to read the long description or not. If the caption conveys sufficient information and is live text, not embedded in the image, a short description may not be needed. 
+</p>
+<p>
+How this image description is displayed depends on the reading tool being used. In most 
+mainstream reading tools, the description will not be displayed at all, but in tools designed
+for accessibility (or mainstream tools with accessibility features enabled), the description could 
+be displayed below the image, voiced as part of the content, or both.
+</p>
+<p>
+The choice of modality varies depending on factors such as the information to be conveyed, grade level, student knowledge and
+experience, and the image itself. In this case, a tactile graphic is not needed to make this image accessible for braille readers for two reasons: First, because this is a postsecondary text, it is assumed that the reader has more background information and experience than a younger reader would have. Second, the purpose of this image is to identify the Spanish Empire, and this data can be easily understood from a table.
+</p><p>
+If the caption is embedded in the image, it will not be readable as live text by the user's assistive technology. The information in the caption needs to be included in the description.
+</p>
+<p>
+Internal experts disagreed about whether to identify the Caribbean islands in the image descriptions. In the image, the islands are
+shaded as part of the Spanish North American empire, but they are not labeled. In the end, we decided to leave them out of the description since they are not the focus of the image.
+</p>
+<section>
+<h3>Short Text or Audio Description</h3>
+<p>
+A color map marks the Spanish Empire in North America, which extends into present-day Florida, Georgia, Alabama, Mississippi,
+Louisiana, Texas, New Mexico, Arizona, and California.
+</p>
+<section>
+<h4>EPUB 3</h4>
+<p>
+<img src="images/map-epub-small.jpg" alt="image description implemented in epub3" /><br />
+<a href="pix/map-epub-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the short image description would look when implemented in an EPUB 3 file. The code used to create it is:
+</p>
+<pre>
+<code>&lt;figure aria-describedby="map-desc"&gt;
+&lt;img src="images/images/map.jpg" alt="map of the Spanish Empire ca. 1770"/&gt;
+&lt;figcaption&gt;
+&lt;p&gt;
+THE SPANISH BORDERLANDS, CA. 1770 In the late eighteenth century, Spain's North American empire
+extended across what is now the southern United States from Florida through Texas and New Mexico to
+Canada.
+&lt;/p&gt;
+&lt;details id="map-desc"&gt;
+&lt;summary&gt;Description&lt;/summary&gt;
+&lt;p&gt;
+A color map marks the Spanish Empire in North America, which extends into present-day Florida, Georgia,
+Alabama, Mississippi, Louisiana, Texas, New Mexico, Arizona, and Califoria.
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</code>
+</pre>
+</section><section>
+<h4>DAISY</h4>
+<p>
+<img src="images/map-daisy-small.jpg" alt="image description implemented in DAISY" /><br />
+<a href="pix/map-daisy-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the short image description would look when implemented in a DAISY file. The code used to create it is:
+</p>
+<pre><code>
+&lt;imggroup&gt;&lt;p&gt;&lt;img id="map1" src="images/map.jpg" alt="map of the Spanish Empire" /&gt;&lt;/p&gt;
+&lt;caption&gt;
+THE SPANISH BORDERLANDS, CA. 1770 In the late eighteenth century, Spain's North American empire
+extended across what is now the southern United States from Florida through Texas and New Mexico to
+Canada.
+&lt;/caption&gt;
+&lt;prodnote id="prodnote_000001"&gt;
+&lt;p smilref="map.smil#p_000001"&gt;
+A color map marks the Spanish Empire in North America, which extends into present-day Florida, Georgia,
+Alabama, Mississippi, Louisiana, Texas, New Mexico, Arizona, and Califoria.
+&lt;/prodnote&gt;&lt;/imggroup&gt;
+</code></pre>
+</section></section>
+<section>
+<h3>Long Text or Audio Description</h3>
+<p>
+Spain's North American empire, circa 1770, extended across the southern part of the continent, reaching from ocean to ocean. The 
+map shows the Native American populations and various cities throughout the empire. The data is presented in the following table:
+</p>
+<table border="1"><thead><tr><td><p>Region</p></td><td><p>Native Americans</p></td><td><p>Cities</p></td></tr></thead><tbody><tr><td><p>California</p></td><td><p>Miwok, Alta, Chumash, Ipal</p></td><td><p>San Francisco (1776), San Jose (1777), Monterey (1770),
+San Antonio de Padua (1771), San Luis Obispo (1772), Santa Barbara (1782), Los Angeles (1781), San Gabriel (1771), San Juan Capistrano (1776), San Diego (1769)</p></td></tr><tr><td><p>New Mexico</p></td><td><p>Navajo, Pueblo; the Ute tribe is indicated just north of the border</p></td><td><p>Santa Fe</p></td></tr><tr><td><p>Texas</p></td><td><p>Comanche, Lipan Apache, Tonkawa, Hasinai, Coahuiltecan; the Wichita and Quapaw tribes are shown
+north of the border in the Louisiana region.</p></td><td><p>San Antonio</p></td></tr><tr><td><p>Mexico</p></td><td><p>Pima</p></td><td><p>Monterrey</p></td></tr><tr><td><p>Region along the Gulf of Mexico</p></td><td><p>Creek, Chickasaw, Choctaw, Lower Creek</p></td><td><p>New Orleans</p></td></tr><tr><td><p>Florida</p></td><td><p> </p></td><td><p>St. Augustine</p></td></tr></tbody></table>
+<section>
+<h4>EPUB 3</h4>
+<p>
+<img src="images/map-epub-long-small.jpg" alt="image description implemented in epub3" /><br />
+<a href="pix/map-epub-long-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the long image description could look when implemented in an EPUB 3 file. The code used to create it is:
+</p>
+<pre>
+&lt;figure aria-describedby="map-desc"&gt;
+&lt;img src="images/images/map.jpg" alt="map of the Spanish Empire ca. 1770"/&gt;
+&lt;figcaption&gt;
+&lt;p&gt;
+THE SPANISH BORDERLANDS, CA. 1770 In the late eighteenth century, Spain's North American empire
+extended across what is now the southern United States from Florida through Texas and New Mexico to
+Canada.
+&lt;/p&gt;
+&lt;details id="map_desc"&gt;
+&lt;summary&gt;Description&lt;/summary&gt;
+&lt;p&gt;
+Spain's North American empire, circa 1770, extended across the southern part of the continent, reaching from ocean to ocean. 
+The map shows the Native American populations and various cities throughout the empire. The data is presented in the follow table:
+&lt;/p&gt;
+&lt;table border="1"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;Region&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Native Americans&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Cities&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;California&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Miwok, Alta, Chumash, Ipal&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;San Francisco (1776), 
+San Jose (1777), Monterey (1770), San Antonio de Padua (1771), San Luis Obispo (1772), Santa Barbara (1782), 
+Los Angeles (1781), San Gabriel (1771), San Juan Capistrano (1776), San Diego (1769)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;New Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Navajo, Pueblo; the Ute tribe is indicated just 
+north of the border&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Santa Fe&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Texas&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Comanche, Lipan Apache, Tonkawa, Hasinai, Coahuiltecan; 
+the Wichita and Quapaw tribes are shown north of the border in the Louisiana region.&lt;/p&gt;
+&lt;/td&gt;&lt;td&gt;&lt;p&gt;San Antonio&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Pima&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Monterrey&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Region along the Gulf of Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Creek, Chickasaw, Choctaw, 
+Lower Creek&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;New Orleans&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Florida&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt; &lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;St. Augustine&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</pre>
+</section><section>
+<h4>DAISY</h4>
+<p>
+<img src="images/map-daisy-long-small.jpg" alt="image description implemented in daisy" /><br />
+<a href="pix/map-daisy-long-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the long image description would look when implemented in a DAISY file. The code used to create it is:
+</p>
+<pre>
+&lt;imggroup&gt;&lt;p&gt;&lt;img id="map1" src="images/map.jpg" alt="map of the Spanish Empire" /&gt;&lt;/p&gt;
+&lt;caption imgref="map1"&gt;
+THE SPANISH BORDERLANDS, CA. 1770 In the late eighteenth century, Spain's North American empire
+extended across what is now the southern United States from Florida through Texas and New Mexico to
+Canada.
+&lt;/caption&gt;
+&lt;prodnote id="prodnote_000001"&gt;
+&lt;p smilref="map.smil#p_000001"&gt;
+Spain's North American empire, circa 1770, extended across the southern part of the continent, 
+reaching from ocean to ocean. The map shows the Native American populations and various cities 
+throughout the empire. The data is presented in the following table:
+&lt;/p&gt;
+&lt;table border="1"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;Region&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Native Americans&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Cities&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;California&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Miwok, Alta, Chumash, Ipal&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;San Francisco (1776), 
+San Jose (1777), Monterey (1770), San Antonio de Padua (1771), San Luis Obispo (1772), Santa Barbara (1782), 
+Los Angeles (1781), San Gabriel (1771), San Juan Capistrano (1776), San Diego (1769)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;New Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Navajo, Pueblo; the Ute tribe is indicated just 
+north of the border&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Santa Fe&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Texas&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Comanche, Lipan Apache, Tonkawa, Hasinai, Coahuiltecan; 
+the Wichita and Quapaw tribes are shown north of the border in the Louisiana region.&lt;/p&gt;
+&lt;/td&gt;&lt;td&gt;&lt;p&gt;San Antonio&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Pima&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Monterrey&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Region along the Gulf of Mexico&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Creek, Chickasaw, Choctaw, 
+Lower Creek&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;New Orleans&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;Florida&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt; &lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;St. Augustine&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/prodnote&gt;&lt;/imggroup&gt;
+</pre>
+</section></section></section></section>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+img.centered {
+   display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+h1.title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%
+}
+h2.title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: default
+    }
+a[href] {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer
+    }

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:ev="http://www.w3.org/2001/xml-events">
+  <head>
+    <title>Sample 4: Quadratic Functions and Their Graphs</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      @page {
+          margin-bottom:5.000000pt;
+          margin-top:5.000000pt;
+      }</style>
+  </head>
+  <body>
+    <section>
+<h1>Sample 4: Quadratic Functions and Their Graphs</h1>
+<p>
+<img src="images/math-small.jpg" alt="a math textbook page" /><br />
+<a href="pix/math-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+This is a page from a high school math textbook.  
+It includes mathematical equations, graphs, and a table of mathematical data. (Click on the image for a larger version.)
+</p>
+<section>
+<h2>Making This Image Accessible</h2>
+<p>
+This page can be made accessible using MathML, image descriptions, and sonification. The choice of modality varies depending
+on factors such as the information to be conveyed, grade level, student knowledge and experience, and the image itself. The complete HTML5 + MathML file and the MP3 audio files are available from the <a href="src/index.html">source files</a> list.
+</p>
+<p>
+How an image description is displayed depends on the reading tool being used. In most mainstream reading tools, the description
+will not be displayed at all, but in tools designed for accessibility (or mainstream tools with accessible features enabled),
+the description could be displayed below the image, voiced as part of the content, or both.
+</p>
+<section>
+<h3>MathML</h3>
+MathML is a way of marking up mathematical notation that makes both its structure and content accessible. It is used throughout the sample page above to create equations and other elements.
+
+<p>
+For example, the code used to create this equation:
+</p><p>
+<img src="images/eq.jpg" alt="f(x)=2x^2-4x+1" /></p><p>
+looks like:
+</p>
+<pre><code>
+&lt;math overflow="scroll"&gt;
+&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;
+&lt;mrow&gt;&lt;mo&gt;(&lt;/mo&gt; &lt;mi&gt;x&lt;/mi&gt; &lt;mo&gt;)&lt;/mo&gt; &lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;
+&lt;mn&gt;2&lt;/mn&gt; &lt;msup&gt;&lt;mi&gt;x&lt;/mi&gt; &lt;mn&gt;2&lt;/mn&gt; &lt;/msup&gt;&lt;mo&gt;-&lt;/mo&gt;
+&lt;mn&gt;4&lt;/mn&gt; &lt;mi&gt;x&lt;/mi&gt; &lt;mo&gt;+&lt;/mo&gt; &lt;mn&gt;1&lt;/mn&gt;
+&lt;/mrow&gt;&lt;/math&gt;
+</code></pre>
+<p>
+The complete HTML5 + MathML code is available from the <a href="src/index.html">source files</a> list.
+</p>
+</section><section>
+<h3>Text or Audio Description</h3>
+<p>
+For the graphs on this page, the image descriptions are short enough that only alt text is needed. An appropriate description for the first graph is:<br/>
+"A vertical parabola with the vertex at (1, -1)." <br/>
+An appropriate description for the second graph is:<br/>
+"A vertical parabola with the vertex at (0, -1). The parabola crosses the following points: (1, 0); (-1, 0); (2, 3); (-2, 3)."
+</p>
+<section>
+<h4>EPUB 3</h4>
+<p>
+The code to create this description in EPUB 3 is:
+</p>
+<pre><code>
+&lt;img id="math-img-1290" title="A graphing calculator of a graph titled
+"[-4.7, 4.7, 1] by [-3.1, 3.1, 1]" with the parabola "y = 2x² - 4x + 1" with vertex
+"X=1 Y=-1"." alt="A vertical parabola with the vertex at (1, -1)."
+src="math_complete_files/p716_001.jpg">
+</code></pre>
+</section><section>
+<h4>DAISY</h4>
+<p>
+The code to create this description in DAISY is:
+</p>
+<pre><code>
+&lt;imggroup>&lt;img id="math-img-1290" src="math_complete_files/p716_002.jpg"
+alt="A vertical parabola with the vertex at (0, -1). The parabola crosses
+the following points, (1, 0); (-1, 0); (2, 3); (-2, 3)." />
+&lt;/imggroup>
+</code></pre>
+</section></section>
+<section>
+<h3>Sonification</h3>
+<p>
+Sonification uses non-speech audio to represent the behavior of the graphed equation. By presenting mathematical concepts in a different way, sonification is useful for all students regardless of disability or learning differences. In a web browser or reading tool that supports audio, you can play the MP3 file by clicking on the icon next to the graph.
+</p>
+<p>
+<img src="images/son1.jpg" alt="A vertical parabola with the vertex at (1, -1)" /></p>
+<audio src="src/Figure_11-5.mp3" id="audio01" controls="">
+<p>Sorry, your device does not support the HTML5 audio element.</p>
+<p>Please see the <a href="src/index.html">source files</a> for an alternative means of downloading this file.</p>
+          </audio>
+<p>
+If your current reading system supports sound, you can hear the sonification for the graph above by clicking on the image.
+</p>
+<p>
+<img src="images/son2.jpg" alt="A vertical parabola with the vertex at (0, -1). The parabola crosses  the following points, (1,0); (-1,0); (2,3); (-2,3)." /></p>
+<audio src="src/Figure_11-6.mp3" id="audio02" controls="">
+            <p>Sorry, your device does not support the HTML5 audio element.</p>
+            <p>Please see the <a href="src/index.html">source files</a> for an alternative means of downloading this file.</p>
+
+          </audio>
+<p>
+If your current reading system supports sound, you can hear the sonification for the graph above by clicking on the image.
+</p>
+<p>
+The complete example page with both sonification MP3 files is available from the <a href="src/index.html">source files</a> list.
+</p>
+</section></section></section>
+  </body>
+</html>

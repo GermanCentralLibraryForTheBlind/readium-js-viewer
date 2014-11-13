@@ -1,5 +1,11 @@
 [
      {
+        "title" : "Accessible_Image_Sample_Book",
+        "author" : "",
+        "packagePath" : "Accessible_Image_Sample_Book/EPUB/content.opf",
+        "rootUrl" : "epub_content/Accessible_Image_Sample_Book/"
+     },
+     {
         "title" : "3D-Buecherliste-Uebernahmen",
         "author" : "",
         "packagePath" : "3D-Buecherliste-Uebernahmen/EPUB/package.opf",
@@ -26,7 +32,7 @@
         "packagePath" : "Test_Lueckentext_v0_8/EPUB/content.opf",
         "rootUrl" : "epub_content/Test_Lueckentext_v0_8/"
      },
-         
+
      {
         "title" : "Sprachpraxis - Lückentext (V 0.5 - Formularfeld für Anfangsbuchstaben)",
         "author" : "Hufnagl, Gerhard u.a.",
@@ -82,7 +88,7 @@
     },
     {
         "title" : "navigator.epubReadingSystem",
-        "author" : "Readium", 
+        "author" : "Readium",
         "packagePath" : "package.opf",
         "rootUrl" : "epub_content/epubReadingSystem"
     },
@@ -206,5 +212,5 @@
         "packagePath" : "EPUB/package.opf",
         "rootUrl" : "epub_content/epub30-test-0220-20140611"
     }
-   
+
 ]

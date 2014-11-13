@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Sample 1: Heart and Lung Diagram</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      @page {
+          margin-bottom:5.000000pt;
+          margin-top:5.000000pt;
+      }</style>
+  </head>
+  <body>
+    <section>
+<h1>Sample 1: Heart and Lung Diagram</h1>
+<p>
+<img src="images/ex1-small.jpg" alt="the heart and lungs" /><br />
+<a href="pix/ex1-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+This image of the heart and lungs is taken from a middle school health textbook. The full page 
+where it appears can be seen below.
+</p>
+<p>
+<img src="images/ex1-context-small.jpg" alt="full page for heart and lungs image" /><br />
+<a href="pix/ex1-context-lg.html">View a larger version of this image.</a>
+</p>
+<section>
+<h2>Making This Image Accessible</h2>
+<p>
+This image can be made accessible with an image description or by using a tactile graphic. The choice of modality varies depending on factors such as the information to be conveyed, grade level, student knowledge and experience, and the image itself. 
+</p>
+<p>
+Written image descriptions are widely used for images that illustrate a process or simple concept. Tactile images are used for images
+or diagrams where the physical relationships between elements of the image are important.
+</p>
+<p>
+How the image description is displayed depends on the reading tool being used. In most 
+mainstream reading tools, the description will not be displayed at all, but in tools designed
+for accessibility (or mainstream tools with accessibility features enabled) the description could
+be displayed below the image, voiced as part of the content, or both.
+</p>
+<p>
+This is an example of an image in which text is embedded in the image and is not accessible. The content needs to be extracted from the image and included in the description.
+</p>
+<section>
+<h3>Text or Audio Description</h3>
+<p>
+Systems in Sync. The circulatory and respiratory systems work together to transport oxygen-rich blood through the body.
+</p><p>
+A diagram shows a cross-section of a heart between two lungs.  Red arrows show the path of oxygen-rich blood cells. Blue arrows show the path of oxygen-poor blood.
+</p>
+<ol><li>Oxygen-rich blood cells travel to the heart from the lungs.</li>
+<li>The heart pumps enriched blood cells. They travel through the arteries to the body.</li>
+<li>Throughout the body, red blood cells deliver oxygen to cells and remove carbon dioxide.</li>
+<li>Veins carry oxygen-poor blood back to the heart.</li>
+<li>The heart pumps blood back to the lungs to eliminate carbon dioxide and absorb oxygen.</li>
+<li>Red blood cells move through the lungs, taking in oxygen and exchanging it for carbon dioxide.</li>
+</ol>
+<section>
+<h4>EPUB 3</h4>
+<p>
+<img src="images/ex1-epub-small.jpg" alt="image description implemented in epub3" /><br />
+<a href="pix/ex1-epub-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the image description would look when implemented in an EPUB 3 file. The code used to create it is:
+</p>
+<pre>
+<code>&lt;figure aria-describedby="heart-and-lungs-desc"&gt;
+&lt;img src="images/images/ex1.jpg" alt="The heart and lungs"/&gt;
+&lt;figcaption&gt;
+The heart and lungs
+&lt;details id="heart-and-lungs-desc"&gt;
+&lt;summary&gt;Description&lt;/summary&gt;
+&lt;p&gt;
+Systems in Sync. The circulatory and respiratory systems work together to transport oxygen-rich 
+blood through the body.
+&lt;/p&gt;&lt;p&gt;
+A diagram shows a cross-section of a heart between two lungs. Red arrows show the path of oxygen-rich 
+blood cells. Blue arrows show the path of oxygen-poor blood.
+&lt;/p&gt;
+&lt;list type="ol"&gt;
+&lt;li&gt;Oxygen-rich blood cells travel to the heart from the lungs.&lt;/li&gt;
+&lt;li&gt;The heart pumps enriched blood cells. They travel through the arteries to the body.&lt;/li&gt;
+&lt;li&gt;Throughout the body, red blood cells deliver oxygen to cells and remove carbon dioxide.&lt;/li&gt;
+&lt;li&gt;Veins carry oxygen-poor blood back to the heart.&lt;/li&gt;
+&lt;li&gt;The heart pumps blood back to the lungs to eliminate carbon dioxide and absorb oxygen.&lt;/li&gt;
+&lt;li&gt;Red blood cells move through the lungs, taking in oxygen and exchanging it for carbon dioxide.&lt;/li&gt;
+&lt;/list&gt;
+&lt;/details&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</code>
+</pre>
+</section>
+<section>
+<h4>DAISY</h4>
+<p>
+<img src="images/ex1-daisy-small.jpg" alt="image description implemented in DAISY" /><br />
+<a href="pix/ex1-daisy-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the image description would look when implemented in a DAISY file. The code used to create it is:
+</p>
+<pre><code>
+&lt;imggroup&gt;&lt;p&gt;&lt;img id="ex_1" src="images/ex1.jpg" alt="the heart and lungs" /&gt;&lt;/p&gt;
+&lt;prodnote id="prodnote_000001"&gt;
+&lt;p smilref="examplar1.smil#p_000001"&gt;
+Systems in Sync. The circulatory and respiratory systems work together to transport oxygen-rich blood 
+through the body.
+&lt;/p&gt;&lt;p&gt;
+A diagram shows a cross-section of a heart between two lungs. Red arrows show 
+the path of oxygen-rich blood cells. Blue arrows show the path of oxygen-poor blood.
+&lt;/p&gt;
+&lt;list type="ol"&gt;
+&lt;li&gt;Oxygen-rich blood cells travel to the heart from the lungs.&lt;/li&gt;
+&lt;li&gt;The heart pumps enriched blood cells. They travel through the arteries to the body.&lt;/li&gt;
+&lt;li&gt;Throughout the body, red blood cells deliver oxygen to cells and remove carbon dioxide.&lt;/li&gt;
+&lt;li&gt;Veins carry oxygen-poor blood back to the heart.&lt;/li&gt;
+&lt;li&gt;The heart pumps blood back to the lungs to eliminate carbon dioxide and absorb oxygen.&lt;/li&gt;
+&lt;li&gt;Red blood cells move through the lungs, taking in oxygen and exchanging it for carbon dioxide.&lt;/li&gt;
+&lt;/list&gt;
+&lt;/prodnote&gt;&lt;/imggroup&gt;
+</code></pre>
+</section></section>
+<section>
+<h3>Tactile Graphic</h3>
+<p>A tactile graphic allows the image to be interpreted manually. This graphic was developed for <a href="http://www.tactilegraphics.org/microcapsule.html">microcapsule paper</a> production.
+</p>
+<p>
+<img src="images/heart-lung-tg-small.jpg" alt="picture of tactile graphic example" /><br />
+<a href="pix/heart-lung-tg-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+<img src="images/heart-lung-tg-p2-small.jpg" alt="second page of tactile graphic example" /><br />
+<a href="pix/heart-lung-tg-p2-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The first image contains the diagram and the key. The second image includes all of the numbered text that is part of the original image.
+</p>
+</section>
+</section>
+</section>
+  </body>
+</html>
