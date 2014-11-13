@@ -9,22 +9,22 @@
      {
         "title" : "Sprachpraxis -Lückentext (V 1.0 - komplette Wörter (value) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v1_0/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v1_0/"
+        "packagePath" : "Test_Lueckentext_v1_0/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v1_0/"
      },
 
      {
         "title" : "Sprachpraxis -Lückentext (V 0.9 - komplette Wörter (value) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v0_9/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v0_9/"
+        "packagePath" : "Test_Lueckentext_v0_9/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v0_9/"
      },
 
      {
         "title" : "Sprachpraxis -Lückentext (V 0.8 - komplette Wörter (placeholder) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v0_8/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v0_8/"
+        "packagePath" : "Test_Lueckentext_v0_8/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v0_8/"
      },
          
      {
