@@ -106,15 +106,22 @@ direction: rtl;
 }
 
 .navbar-middle {
-    min-height: 24px;
     background-color: #4d4d4d;
+    font-weight: bold;
     float: left;
-}
-
-#pagination {
-    text-align: center;
     color: #ffffff;
 }
+
+.pagination {
+    background-color: #07691a;
+    margin: 0px;
+    margin-top: 5%;
+}
+
+#pagination-in-percent-slider{
+    background: #428041;
+}
+
 
 .navbar-right {
     min-height: 36px;
@@ -444,6 +451,12 @@ html[data-theme=night-theme] #right-page-btn:hover {
 /*.embedded .navbar-left{
   float: left!important;
 }*/
+
+.navbar-left {
+    float: left !important;
+    width: 40%;
+}
+
 .embedded .navbar-right {
     float: none !important;
     clear: left;
