@@ -107,19 +107,22 @@ direction: rtl;
 
 .navbar-middle {
     background-color: #4d4d4d;
-    font-weight: bold;
     float: left;
-    color: #ffffff;
 }
 
 .pagination {
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 40px;
     background-color: #07691a;
-    margin: 0px;
-    margin-top: 5%;
+    margin: 5% 0px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#pagination-in-percent-slider{
-    background: #428041;
+#pagination-in-percent {
+    margin-left: 15px;
 }
 
 
