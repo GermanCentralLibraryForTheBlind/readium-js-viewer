@@ -496,8 +496,8 @@ body.keyboard #app-navbar button:focus,
 body.keyboard #app-navbar input[type="radio"]:focus + label,
 body.keyboard #app-navbar input[type="range"]:focus
 {
-    box-shadow: 0px 0px 5px #cccccc !important;
-    outline: #cccccc double 3px !important;
+    box-shadow: 0px 0px 5px #cccccc  !important;
+    outline: #cccccc double 3px  !important;
 }
 
 body.keyboard #app-navbar input[type="text"]:focus {

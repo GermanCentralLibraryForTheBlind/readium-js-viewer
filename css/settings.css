@@ -160,6 +160,11 @@
   background-color: #141414;
   color: white;
 }
+
+[id^=night-theme] :focus, [id^=night-theme] :focus+ label{
+    outline: #cccccc double 3px !important;
+}
+
 .default-theme {
   background-color: white;
   color: black;
@@ -172,6 +177,12 @@
   background-color: #576b96;
   color: #DDD;
 }
+
+[id^=ballard-theme] :focus, [id^=ballard-theme] :focus + label{
+   outline: #cccccc double 3px !important;
+}
+
+
 .vancouver-theme {
   background-color: #DDD;
   color: #576b96;
