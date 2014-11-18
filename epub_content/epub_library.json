@@ -1,5 +1,11 @@
 [
      {
+        "title" : "Accessible_Image_Sample_Book",
+        "author" : "",
+        "packagePath" : "Accessible_Image_Sample_Book/EPUB/content.opf",
+        "rootUrl" : "epub_content/Accessible_Image_Sample_Book/"
+     },
+     {
         "title" : "3D-Buecherliste-Uebernahmen",
         "author" : "",
         "packagePath" : "3D-Buecherliste-Uebernahmen/EPUB/package.opf",
@@ -9,24 +15,24 @@
      {
         "title" : "Sprachpraxis -Lückentext (V 1.0 - komplette Wörter (value) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v1_0/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v1_0/"
+        "packagePath" : "Test_Lueckentext_v1_0/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v1_0/"
      },
 
      {
         "title" : "Sprachpraxis -Lückentext (V 0.9 - komplette Wörter (value) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v0_9/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v0_9/"
+        "packagePath" : "Test_Lueckentext_v0_9/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v0_9/"
      },
 
      {
         "title" : "Sprachpraxis -Lückentext (V 0.8 - komplette Wörter (placeholder) im Formularfeld)",
         "author" : "Hufnagl, Gerhard u.a.",
-        "packagePath" : "Test_Lückentext_v0_8/EPUB/content.opf",
-        "rootUrl" : "epub_content/Test_Lückentext_v0_8/"
+        "packagePath" : "Test_Lueckentext_v0_8/EPUB/content.opf",
+        "rootUrl" : "epub_content/Test_Lueckentext_v0_8/"
      },
-         
+
      {
         "title" : "Sprachpraxis - Lückentext (V 0.5 - Formularfeld für Anfangsbuchstaben)",
         "author" : "Hufnagl, Gerhard u.a.",
@@ -82,7 +88,7 @@
     },
     {
         "title" : "navigator.epubReadingSystem",
-        "author" : "Readium", 
+        "author" : "Readium",
         "packagePath" : "package.opf",
         "rootUrl" : "epub_content/epubReadingSystem"
     },
@@ -206,5 +212,5 @@
         "packagePath" : "EPUB/package.opf",
         "rootUrl" : "epub_content/epub30-test-0220-20140611"
     }
-   
+
 ]

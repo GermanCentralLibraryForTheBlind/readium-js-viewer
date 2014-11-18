@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Sample 7: Decorative and Redundant Images</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      @page {
+          margin-bottom:5.000000pt;
+          margin-top:5.000000pt;
+      }</style>
+  </head>
+  <body>
+    <section>
+      <h1>Sample 7: Decorative and Redundant Images</h1>
+      <p><img src="images/ex8.jpg" alt="an author photo and a decorative image" /></p>
+      <p>These images are taken from a high school literature textbook. The full page where they appear can be seen below. </p>
+      <p><img src="images/ex8-context-small.jpg" alt="full page with author photo and decorative image" /><br />
+      <a href="pix/ex8-context-lg.html">View a larger version of this image.</a>
+</p>
+      <section>
+        <h2>Making These Images Accessible</h2>
+        <p> Many images don't need to be made accessible if their function in the text is purely decorative or if they convey information
+          that is also provided in the text. </p>
+        <p> The first image, a graphic of an open book, is an icon used to highlight a recurring section at the end of each chapter. It is a
+          decorative image and does not need to be made accessible. However, it should be tagged so that a screen reader will know to skip
+          it. </p>
+        <p> The code used for this in an EPUB 3 file is: </p>
+        <pre>
+&lt;img src="image.jpg" alt="" role="presentation" /&gt;
+</pre>
+        <p>In a DAISY file, the code used is: </p>
+        <pre>
+&lt;img src="image.jpg" alt="" /&gt;
+</pre>
+        <p> The second image is an author photo that accompanies a short biography of the author. There are two options for making this
+          image accessible. The appropriate option depends on the accessibility of the text associated with the image. </p>
+        <dl>
+          <dt> Option 1: </dt>
+          <dd>
+            <p>If the dates below the photo are live text and will be read by a screen reader, the accompanying photo can be identified with
+              a short alt text of: "Photo of Kay Boyle." All other information is included in the caption and the box text. </p>
+            <p> In both DAISY and EPUB 3, the following code can be used: </p>
+            <pre>
+&lt;img src="kayboyle.jpg" alt="Photo of Kay Boyle" />
+</pre>
+          </dd>
+          <dt> Option 2: </dt>
+          <dd>
+            <p> If the dates below the photo are embedded in the image and will therefore not be read by a screen reader, the photo should
+              be identified with a short alt text of: "Photo of Kay Boyle, who lived from 1902 to 1992." </p>
+            <p> In both DAISY and EPUB 3, the following code can be used: </p>
+            <pre>&lt;img src="kayboyle.jpg" alt="Photo of Kay Boyle, who lived from 1902 to 1992" />
+</pre>
+          </dd>
+        </dl>
+      </section>
+    </section>
+  </body>
+</html>

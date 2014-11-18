@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Sample 5: Angles on a Survey Map </title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+      @page {
+          margin-bottom:5.000000pt;
+          margin-top:5.000000pt;
+      }</style>
+  </head>
+  <body>
+    <section>
+<h1>Sample 5: Angles on a Survey Map</h1>
+<p>
+<img src="images/survey-small.jpg" alt="survey assessment question" /><br />
+<a href="pix/survey-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+This is a page from a secondary education assessment. The full page where it appears can be seen below.  
+</p>
+<p>
+<img src="images/survey-context-small.jpg" alt="survey map assessment image" /><br />
+<a href="pix/survey-context-lg.html">View a larger version of this image.</a>
+</p>
+<section>
+<h2>Challenges of Assessments</h2>
+<p>
+Making images accessible for assessments, especially formal assessments such as those used on standardized tests, can be more complex than making images accessible for books and require additional considerations. Making images accessible for formal assessments is beyond the scope of this sample book, but it is important to understand the range of issues. While educators may freely adapt textbook images to make them accessible for students who need them, they must seek permission from the company producing the assessment. In addition, changing a standardized assessment image in any way may affect the scope of what is being tested. 
+</p>
+<p>
+There are many less formal kinds of assessments such as in-class or end-of-chapter tests and quizzes that are included in textbooks, workbooks, and teacher’s guides. The choice of modality varies depending on factors such as the information to be conveyed, grade level, student knowledge and experience, and the image itself. It is also important to consider the content of the expected answer. An image description must provide enough information without giving away the answer.
+</p>
+</section>
+<section>
+<h2>Making This Image Accessible</h2>
+<p>
+This image can be made accessible with an image description or by using a tactile graphic. How this image description is displayed depends on the reading tool being used. In most mainstream reading tools, the description will not be displayed at all, but in tools designed for accessibility (or mainstream tools with accessibility features enabled), the description could be displayed below the image, voiced as part of the content, or both.  
+</p>
+<section>
+<h3>Text or Audio Description</h3>
+<p>
+Two surveyors, A and P, stand some distance apart on the south bank of a river, looking at a tree, T, that is on the north bank of the river. Points A, P, and T form a triangle. At points A and P, there are two parallel sight lines pointing north and forming angles outside of the triangle. At point P, angle TPA is 53 degrees. The adjacent angle between PT and the northern sight line is 37 degrees. At point A, angle TAP is not labeled, and the adjacent angle formed between AT and that northern sight line is 32 degrees. 
+</p>
+</section><section>
+<h3>EPUB 3</h3>
+<p>
+<img src="images/survey-epub-sm.jpg" alt="survey map with image description" /><br />
+<a href="pix/survey-epub-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the image description would look when implemented in an EPUB 3 file. The code used to create it is:
+</p>
+<pre>
+&lt;figure aria-describedby="survey-desc">
+&lt;img src="images/survey.jpg" alt="survey map with angles"/>
+&lt;figcaption>
+&lt;p>
+&lt;/p>
+&lt;details id="survey-desc">
+&lt;summary>Description&lt;/summary>
+&lt;p>
+Two surveyors, A and P, stand some distance apart on the south bank of a river,
+looking at a tree, T, that is on the north bank of the river. Points A, P, and
+T form a triangle. At points A and P, there are two parallel sight lines pointing
+north and forming angles outside of the triangle. At point P, angle TPA is 53
+degrees. The adjacent angle between PT and the northern sight line is 37 degrees.
+At point A, angle TAP is not labeled, and the adjacent angle formed between AT
+and that northern sight line is 32 degrees.
+&lt;/p>
+&lt;/details>
+&lt;/figcaption>
+&lt;/figure>
+</pre>
+</section><section>
+<h3>DAISY</h3>
+<p>
+<img src="images/survey-daisy-sm.jpg" alt="survey map with image description" /><br />
+<a href="pix/survey-daisy-lg.html">View a larger version of this image.</a>
+</p>
+<p>
+The image above shows how the image description would look when implemented in a DAISY file. The code used to create it is:
+</p>
+<pre>
+&lt;imggroup>&lt;p>&lt;img id="angles1" src="images/survey.jpg" alt="survey map with angles" />&lt;/p>
+&lt;prodnote id="prodnote_000001">
+&lt;p smilref="survey.smil#p_000001">
+Two surveyors, A and P, stand some distance apart on the south bank of a river, 
+looking at a tree, T, that is on the north bank of the river. Points A, P, and 
+T form a triangle. At points A and P, there are two parallel sight lines pointing 
+north and forming angles outside of the triangle. At point P, angle TPA is 53 
+degrees. The adjacent angle between PT and the northern sight line is 37 degrees. 
+At point A, angle TAP is not labeled, and the adjacent angle formed between AT 
+and that northern sight line is 32 degrees.
+&lt;/p>
+&lt;/prodnote>&lt;/imggroup>
+</pre>
+</section><section>
+<h3>Tactile Graphic</h3>
+<p>A tactile graphic allows the image to be interpreted manually. This graphic was developed for a <a href="http://www.tactilegraphics.org/computerassistedtactiles.html">high resolution graphics embosser</a>.</p>
+<p>
+<img src="images/anglesmap-small.jpg" alt="small version of tactile graphic" /><br />
+<a href="pix/anglesmap-lg.html">View a larger version of this image.</a>
+</p>
+</section><section>
+<h3>DIAGRAM Content Model</h3>
+<p>
+The DIAGRAM Content Model is a standard way to structure image description data, including multiple descriptions, annotations, and pointers to alternate file formats. The Content Model is implemented in XML which is transformed into formatted HTML using XSLT. More information about the Content Model is available on the <a href="http://diagramcenter.org/standards-and-practices/content-model.html">DIAGRAM Center website</a>.
+</p>
+<p>
+In this example, the Content Model contains multiple image descriptions, a note from the teacher, and a pointer to a tactile graphic.
+</p>
+<p>
+The code used for this example may look like:
+</p> 
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?>
+
+&lt;?xml-stylesheet type="text/xsl" href="desc2html.xsl"?>
+
+&lt;d:description xml:id="angles-desc" xml:lang="en"
+    xmlns="http://www.daisy.org/ns/z3998/authoring/"
+    xmlns:d="http://www.daisy.org/ns/z3998/authoring/features/description/"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    &lt;d:head>
+        &lt;meta property="dc:identifier" content="source-or-self-identification?" />
+        &lt;meta property="dc:language" content="en-US" />
+        &lt;meta property="diagram:purpose">Illustrates the relationships between 
+		the surveying crew and the tree.&lt;/meta>
+
+        &lt;meta property="diagram:targetAge" content="14-18" />
+        &lt;meta property="diagram:targetGrade" content="9-12" />
+        &lt;meta property="diagram:descriptionQuality" content="7" />
+
+        &lt;meta property="dc:creator" xml:id="author01">John Doe&lt;/meta>
+        &lt;meta about="#author01" property="diagram:credentials">Ph.D. in Civil Engineering&lt;/meta>
+
+        &lt;meta property="dc:rights" content="???" />
+        &lt;meta property="dc:accessRights">This resource is for use by academic
+          institutions only.&lt;/meta>
+
+        &lt;meta rel="diagram:currentVersion"
+          resource="http://example.com/geometry/k12/angles/current"/>
+        &lt;meta rel="diagram:thisVersion" resource="http://example.com/geometry/k12
+          /angles/1.2/description.xml"/>
+        &lt;meta rel="diagram:previousVersion" resource="http://example.com/geometry
+          /k12/angles/1.1/description.xml"/>
+
+        &lt;meta rel="diagram:alternateVersion" xml:id="alternateVersion01"
+          resource="http://example.com/math/k12/angles/current">
+            &lt;meta property="dc:description">This description provides the
+              mathematical explanation for calculating angles.&lt;/meta>
+        &lt;/meta>
+
+        &lt;meta rel="diagram:repository"
+          resource="http://example.com/diagram/repository/">
+            &lt;meta property="diagram:queryConcept" content="angles"/>
+            &lt;meta property="diagram:queryConcept" content="calculating"/>
+            &lt;meta property="diagram:queryConcept" content="triangles"/>
+        &lt;/meta>
+
+    &lt;/d:head>
+    &lt;d:body>
+        &lt;d:summary xml:id="summary">
+            &lt;p>The image depicts two surveyors measuring the angles between themselves and a tree.&lt;/p>
+        &lt;/d:summary>
+        &lt;d:longdesc xml:id="longdesc01">
+        &lt;p>Two surveyors, A and P, stand some distance apart on the south bank 
+	of a river, looking at a tree, T, that is on the north bank of the river. 
+	Points A, P, and T form a triangle. At points A and P, there are two parallel 
+	sight lines pointing north and forming angles outside of the triangle. At 
+	point P, angle TPA is 53 degrees. The adjacent angle between PT and the 
+	northern sight line is 37 degrees. At point A, angle TAP is not labeled, 
+	and the adjacent angle formed between AT and that northern sight line is 
+	32 degrees. &lt;/p>
+
+        &lt;/d:longdesc>
+        &lt;annotation ref="longdesc01" role="diagram:comment" by="teacher">
+            &lt;p>The distance between the points is not needed.&lt;/p>
+        &lt;/annotation>
+        &lt;d:simplifiedLanguageDescription xml:id="simpledesc01">
+            &lt;p>T, A, and P are the three points on a triangle. Angle TPA is 53 degrees 
+	with an adjacent angle of 37 degrees. The angle adjacent to angle TAP is 32 degrees.
+              &lt;/p>
+        &lt;/d:simplifiedLanguageDescription>
+        &lt;d:tactile xml:id="tactile01">
+            &lt;object src="http://example.com/tactiles/repository/angles.svg"
+              srctype="image/svg+xml"/>
+            &lt;d:tour>
+                &lt;p>In the upper left corner of the tactile…&lt;/p>
+            &lt;/d:tour>
+        &lt;/d:tactile>
+        &lt;d:simplifiedImage xml:id="alt-image">
+            &lt;object src="http://example.com/…/angles-lv.svg"
+              srctype="image/svg+xml"/>
+            &lt;d:tour>
+                &lt;p>Moving front the top left corner of the image…&lt;/p>
+            &lt;/d:tour>
+        &lt;/d:simplifiedImage>
+    &lt;/d:body>
+&lt;/d:description>
+</pre>
+<p>
+The Content Model is referenced in an EPUB 3, DAISY, or HTML5 file using the <a href="https://dvcs.w3.org/hg/aria-unofficial/raw-file/tip/desc
+ribedat.html">aria-describedat</a> attribute which is currently under development. The code to reference the sample description file above (su
+rveymap.xml) may look like:</p>
+<pre>
+&lt;img src="images/survey.jpg" alt="survey map with angles" 
+     aria-describedat="http://www.example.com/surveymap.xml" />
+</pre>
+</section></section></section>
+  </body>
+</html>

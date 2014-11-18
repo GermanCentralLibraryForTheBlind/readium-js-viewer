@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="UND">
+  <head>
+    <meta content="de3ae9bd-1fa2-418e-9561-573e168e9e78" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+   <text>Accessible Image Sample Book</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="56" playOrder="1">
+      <navLabel>
+        <text>Table of Contents</text>
+      </navLabel>
+      <content src="index.html"/>
+    </navPoint>
+    <navPoint id="ac8f8c58-f80f-457f-afe8-ab22b0ad58cc" playOrder="2">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="preface.html"/>
+    </navPoint>
+    <navPoint id="ce4f83a5-b3a4-4968-ae33-47be2ca9a1d9" playOrder="3">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="intro.html"/>
+    </navPoint>
+    <navPoint id="ef72ed99-339b-43a1-a060-98fed403de4e" playOrder="4">
+      <navLabel>
+        <text>Sample 1: Heart and Lung Diagram</text>
+      </navLabel>
+      <content src="examplar1.html"/>
+    </navPoint>
+    <navPoint id="cc9bdad1-99a4-417c-92cf-f62980bfedbd" playOrder="5">
+      <navLabel>
+        <text>Sample 2: Map of North America</text>
+      </navLabel>
+      <content src="examplar2.html"/>
+    </navPoint>
+    <navPoint id="ae124afb-22e3-44be-80c1-06390c85a485" playOrder="6">
+      <navLabel>
+        <text>Sample 3: Institutional Discrimination Bar Chart</text>
+      </navLabel>
+      <content src="examplar3.html"/>
+    </navPoint>
+    <navPoint id="b30e723f-ab08-407b-80ab-79ee6e16ad8e" playOrder="7">
+      <navLabel>
+        <text>Sample 4: Quadratic Functions and Their Graphs</text>
+      </navLabel>
+      <content src="examplar4.html"/>
+    </navPoint>
+    <navPoint id="1a27470e8-8de3-4e47-8416-8fca09ab995d" playOrder="8">
+      <navLabel>
+        <text>Sample 5: Angles on a Survey Map</text>
+      </navLabel>
+      <content src="examplar5.html"/>
+    </navPoint>
+    <navPoint id="2a27470e8-8de3-4e47-8416-8fca09ab995d" playOrder="9">
+      <navLabel>
+        <text>Sample 6: Carbon Atom </text>
+      </navLabel>
+      <content src="examplar6.html"/>
+    </navPoint>
+    <navPoint id="3a27470e8-8de3-4e47-8416-8fca09ab995d" playOrder="10">
+      <navLabel>
+        <text>Sample 7: Decorative and Redundant Images</text>
+      </navLabel>
+      <content src="examplar7.html"/>
+    </navPoint>
+    <navPoint id="f4383523-49c5-4cd3-b4c0-5ff01b3ea6b6" playOrder="11">
+      <navLabel>
+        <text>Looking Ahead</text>
+      </navLabel>
+      <content src="conclusion.html"/>
+    </navPoint>
+    <navPoint id="5f47ce9e-e2ac-4c14-8efc-4cdeb0f450a5" playOrder="12">
+      <navLabel>
+        <text>Guidelines, Tutorials, and Other Resources</text>
+      </navLabel>
+      <content src="resources.html"/>
+    </navPoint>
+    <navPoint id="22d4bf74-2429-4386-959e-7e471b960202" playOrder="13">
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src="acknowledgments.html"/>
+    </navPoint>
+    <navPoint id="491cd0dd5-9145-477d-adc1-c9abaaf5b3cc" playOrder="14">
+      <navLabel>
+        <text>Source Files Included in This Book</text>
+      </navLabel>
+      <content src="src/index.html"/>
+    </navPoint>
+    <navPoint id="591cd0dd5-9145-477d-adc1-c9abaaf5b3cc" playOrder="15">
+      <navLabel>
+        <text>Notice</text>
+      </navLabel>
+      <content src="copyright.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
