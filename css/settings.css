@@ -137,13 +137,16 @@
 }
 
 .theme-option{
-  text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   border: 1px solid #777;
   padding: 3px;
   margin-bottom: 10px;
+}
+
+[name=color-theme]{
+    margin-left: 30% !important
 }
 .author-theme {
   background-color: white;
@@ -157,6 +160,11 @@
   background-color: #141414;
   color: white;
 }
+
+[id^=night-theme] :focus, [id^=night-theme] :focus+ label{
+    outline: #cccccc double 3px !important;
+}
+
 .default-theme {
   background-color: white;
   color: black;
@@ -169,6 +177,12 @@
   background-color: #576b96;
   color: #DDD;
 }
+
+[id^=ballard-theme] :focus, [id^=ballard-theme] :focus + label{
+   outline: #cccccc double 3px !important;
+}
+
+
 .vancouver-theme {
   background-color: #DDD;
   color: #576b96;
