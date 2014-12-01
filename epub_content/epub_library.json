@@ -1,5 +1,5 @@
 [
- {
+  {
     "title": "Year Five Maths. Operations on Numbers",
     "author": "Infogrid Pacific Pte. Ltd.",
     "coverHref": "epub_content/igp-year5-school-maths/OPS/images/igp-year5-school-maths_cover_epub.jpg",
@@ -28,13 +28,6 @@
     "rootUrl": "epub_content/moby_dick"
   },
   {
-    "title": "Moby Dick without media overlays",
-    "author": "Herman Melville",
-    "coverHref": "epub_content/moby_dick_without_media_overlays/OPS/images/9780316000000.jpg",
-    "packagePath": "OPS/package.opf",
-    "rootUrl": "epub_content/moby_dick_without_media_overlays"
-  },
-  {
     "title": "A First Course in Linear Algebra",
     "author": "Robert A. Beezer",
     "packagePath": "EPUB/package.opf",
@@ -45,6 +38,12 @@
     "author": "",
     "packagePath": "Accessible_Image_Sample_Book/EPUB/content.opf",
     "rootUrl": "epub_content/Accessible_Image_Sample_Book/"
+  },
+  {
+    "title": "3D-Buecherliste-Uebernahmen",
+    "author": "",
+    "packagePath": "3D-Buecherliste-Uebernahmen/EPUB/package.opf",
+    "rootUrl": "epub_content/3D-Buecherliste-Uebernahmen/"
   },
   {
     "title": "Sprachpraxis -Lückentext (V 1.0 - komplette Wörter (value) im Formularfeld)",
@@ -70,7 +69,6 @@
     "packagePath": "Test_Lueckentext_v0_5/EPUB/content.opf",
     "rootUrl": "epub_content/Test_Lueckentext_v0_5/"
   },
- 
   {
     "title": "Zukunft des Publizierens",
     "author": "Petra von Cronenburg",
@@ -78,7 +76,7 @@
     "rootUrl": "epub_content/zukunft_des_publizierens/"
   },
   {
-    "title": "Sprachpraxis v0.1",
+    "title": "Sprachpraxis",
     "author": "Hufnagl, Gerhard u.a.",
     "packagePath": "sprachpraxis/EPUB/content.opf",
     "rootUrl": "epub_content/sprachpraxis/"
@@ -88,12 +86,6 @@
     "author": "Readium",
     "packagePath": "package.opf",
     "rootUrl": "epub_content/epubReadingSystem"
-  },
-  {
-    "title": "3D-Buecherliste-Uebernahmen",
-    "author": "",
-    "packagePath": "3D-Buecherliste-Uebernahmen/EPUB/package.opf",
-    "rootUrl": "epub_content/3D-Buecherliste-Uebernahmen/"
   },
   {
     "title": "epub30-test-0100-20140611",
