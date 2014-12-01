@@ -18,14 +18,14 @@
            
            <div class="tab-content">
                 <div id="tab-style" class="tab-pane active" role="tabpanel" aria-expanded="true">
-                    
+                     
                     <div id="theme-preview">
-                        <h5 aria-hidden="true">{{strings.preview}}</h5>
-                        <div  aria-hidden="true" class="row">
-                            <div data-theme="default-theme" class="col-xs-10 col-xs-offset-1 preview-text default-theme">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. 
-                            </div>
-                        </div>
+                <h5 aria-hidden="true">{{strings.preview}}</h5>
+                <div  aria-hidden="true" class="row">
+                    <div data-theme="default-theme" class="col-xs-10 col-xs-offset-1 preview-text default-theme">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. 
+                    </div>
+                </div>
                     </div>
 
 <!-- button  type="button" title="TESTING" aria-label="TESTING">TESTING DANIEL</button -->
@@ -44,22 +44,54 @@
                     </div>
 
                     <h5 id="setting-header-color-legend" class="setting-header">{{strings.i18n_text_and_background_color}}</h5>
-                    <div role="group" aria-labelledby="setting-header-color-legend" id="theme-radio-group" class="row">
                         
-                        <button role="button" data-theme="author-theme"  title="{{strings.i18n_author_theme}}" aria-label="{{strings.i18n_author_theme}}" class="col-xs-8 col-xs-offset-2 theme-option author-theme clickable">{{strings.i18n_author_theme}}</button>
+    <div role="radiogroup" aria-labelledby="setting-header-color-legend" class="row">
                         
-                        <button role="button" data-theme="default-theme"  title="{{strings.i18n_black_and_white}}" aria-label="{{strings.i18n_black_and_white}}" class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable">{{strings.i18n_black_and_white}}</button>
+        <div id="author-theme-radio-div" role="radio" id="author-theme"
+             class="col-xs-8 col-xs-offset-2 theme-option author-theme clickable">
+            <input id="author-theme-radio" name="color-theme" value="author-theme" type="radio"
+                   class="col-xs-offset-4"/>
+            <label for="author-theme-radio">
+                {{strings.i18n_author_theme}}
+            </label>
+        </div>
                         
-                        <button role="button" data-theme="night-theme"  title="{{strings.i18n_arabian_nights}} [{{keyboard.NightTheme}}]" aria-label="{{strings.i18n_arabian_nights}} [{{keyboard.NightTheme}}]" class="col-xs-8 col-xs-offset-2 theme-option night-theme clickable" >{{strings.i18n_arabian_nights}}</button> <!-- accesskey="{{keyboard.accesskeys.NightTheme}}" -->
+        <div id="default-theme-radio-div" role="radio" id="default-theme"
+             class="col-xs-8 col-xs-offset-2 theme-option default-theme clickable">
+            <input id="default-theme-radio" name="color-theme" value="default-theme" type="radio"
+                   class="col-xs-offset-4"/>
+            <label for="default-theme-radio">
+                {{strings.i18n_black_and_white}}
+            </label>
+        </div>
                         
-                        <button role="button" data-theme="parchment-theme"  title="{{strings.i18n_sands_of_dune}}" aria-label="{{strings.i18n_sands_of_dune}}" class="col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable">{{strings.i18n_sands_of_dune}}</button>
+        <div id="night-theme-radio-div" role="radio" id="night-theme"
+             class="col-xs-8 col-xs-offset-2 theme-option night-theme clickable">
+            <input id="night-theme-radio" name="color-theme" value="night-theme" type="radio" class="col-xs-offset-4"/>
+            <label id="night-theme-radio-label" for="night-theme-radio">
+                {{strings.i18n_arabian_nights}}
+            </label>
+        </div>
                         
-                        <button role="button" data-theme="ballard-theme"  title="{{strings.i18n_ballard_blues}}" aria-label="{{strings.i18n_ballard_blues}}" class="col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable">{{strings.i18n_ballard_blues}}</button>
+        <div id="parchment-theme-radio-div" role="radio" id="parchment-theme"
+             class="col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable">
+            <input id="parchment-theme-radio" name="color-theme" value="parchment-theme" type="radio"/>
+            <label for="parchment-theme-radio">
+                {{strings.i18n_sands_of_dune}}
+            </label>
+        </div>
                         
-                        <button role="button" data-theme="vancouver-theme"  title="{{strings.i18n_vancouver_mist}}" aria-label="{{strings.i18n_vancouver_mist}}" class="col-xs-8 col-xs-offset-2 theme-option vancouver-theme clickable">{{strings.i18n_vancouver_mist}}</button>
+        <div id="ballard-theme-radio-div" role="radio" id="ballard-theme"
+             class="col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable">
+            <input id="ballard-theme-radio" name="color-theme" value="ballard-theme" type="radio"
+                   class="col-xs-offset-4"/>
+            <label id="ballard-theme-radio-label" for="ballard-theme-radio">
+                {{strings.i18n_ballard_blues}}
+            </label>
+                    </div>
 
                         <button role="button" data-theme="default-theme"  title="{{strings.i18n_custom_theme}}" aria-label="{{strings.i18n_custom_theme}}" class="col-xs-8 col-xs-offset-2 theme-option-custom default-theme clickable" id="custom-theme-btn">{{strings.i18n_custom_theme}}</button>
-                    </div>
+                </div>
                 </div>
                 <div id="tab-layout" class="tab-pane" role="tabpanel">
                     
