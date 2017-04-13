@@ -165,8 +165,6 @@ devDependencies:
     
     "jquery-ui": 'jquery/jquery-ui#1-11-stable'
     
-    "jquery-accessible-autocomplete-list-aria" : "latest"
-    
 # Below dependencies are only used in build tasks (above are runtime deps):
 
 # see readium-cfi-js:

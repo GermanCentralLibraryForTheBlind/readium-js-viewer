@@ -5,8 +5,9 @@ define(['./Dialogs',
         'hgn!readium_js_viewer_html_templates/search.html',
         'spin',
         'readium_shared_js/models/bookmark_data',
-        './DZB'
-        // 'jquery.ui.autocomplete', // only load no instance
+        './DZB',
+        'jquery.ui.autocomplete' // only loading no instance
+
     ],
 
     function (Dialogs,
@@ -96,7 +97,6 @@ define(['./Dialogs',
                 });
 
                 setUpSpinner();
-                require(['jquery.accessible.autocomplete.list.aria']);
             };
 
             // search forwards
@@ -184,32 +184,16 @@ define(['./Dialogs',
                 $.getJSON(request, '', {})
                     .done(function (data) {
 
-                        // $("#searchbox").autocomplete({
-                        //     source: data,
-                        //     select: function (event) {
-                        //         event.stopPropagation();
-                        //         $("#search-btn-next").trigger("click");
-                        //     }
-                        // });
-                        if (data.length > 0) {
-
-                            $('#suggestions').remove();
-
-                            const dataList = $('<datalist>');
-                            dataList.attr('id', 'suggestions');
-                            dataList.insertAfter($('.js-combobox'));
-
-                            data.forEach(function (item) {
-                                var option = $('<option>');
-                                option.attr('value', item);
-                                dataList.append(option);
+                        $("#searchbox").autocomplete({
+                            source: data,
+                            select: function (event) {
+                                event.stopPropagation();
+                                $("#search-btn-next").trigger("click");
+                            }
                             });
-
-                        }
                     })
-                    .fail(function (jqxhr, textStatus, error) {
-                    var err = textStatus + ", " + error;
-                    console.error("Request " + request + " Failed: " + err);
+                    .fail(function () {
+                        console.log("error fulltext search request");
                 });
             }
 
@@ -292,7 +276,7 @@ define(['./Dialogs',
                     var partialCfi = getPartialCfi(cfi);
 
                     // TODO: looks like this should be call after spineitem is loaded
-                    highlighter.apply(idref, partialCfi, 'black');
+                    highlighter.apply(idref, partialCfi, 'blue');
 
                 } catch (e) {
 

@@ -69,7 +69,6 @@
     "body-parser": "latest",
     "ncp": "latest",
     "jquery-ui": "jquery/jquery-ui#1-11-stable",
-    "jquery-accessible-autocomplete-list-aria": "latest",
     "gift": "latest",
     "clean-css-cli": "latest",
     "uglify-js": "latest",
